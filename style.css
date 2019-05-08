@@ -8,7 +8,9 @@ body {
 }
 nav {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    position: fixed;
+    width: 100%;
 }
 nav ul {
     list-style: none;
@@ -19,7 +21,7 @@ nav ul {
     height: 2em;
     align-items: center;
     font-size: 1.5em;
-    position: fixed;
+    
     width: 100%;
     margin: -10px;
     padding: 0;
@@ -107,10 +109,12 @@ section.contact > .contact-intro {
 
 
 
-@media (min-width: 1000px) {
+@media  (min-width: 1000px) {
     img {
         width: 400px;
+
     }
+       
     
     
 }
